@@ -1,0 +1,5 @@
+a= input("Enter a word")
+b = a.upper()
+c= a.lower()
+d= a.title()
+print(f"My sentence is {a} convert Uppercase letter {b} convert Lowercase {c} convert Titlecase {d} ")
