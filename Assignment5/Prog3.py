@@ -1,0 +1,8 @@
+a=eval(input("Enter a tuple number :"))
+b=eval(input("Enter 2nd tuple number :"))
+a=tuple(x+y for x,y in zip(a,b))
+b=tuple(y-x for x,y in zip(b,a))
+a=tuple(x-y for x,y in zip(a,b))
+print("After swapping : \n")
+print("Value of first tupple ",a)
+print("Value of second tupple ",b)
