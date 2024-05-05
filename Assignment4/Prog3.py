@@ -1,0 +1,8 @@
+a= eval(input("Enter the 1st list "))
+c= eval(input("Enter the 2nd list "))
+concat=(a+c)
+print("Concatenation",concat)
+dup=set(concat)
+print("Remove Duplicate values :",dup)
+sort= sorted(dup)
+print("Sorted the output:",sort)
